@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-1{
+    background-image: url(beach3.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 753px;
+    width: 1519px;
+    position: relative;
+    /* align-items: center; */
+}
+
+.container-1>.part-1 h2{
+    position: absolute;
+    top: 567px;
+    background-color: #ffc107;
+    opacity: 0.7;
+    left: 0;
+    right: 456px;
+    bottom: 53px;
+    font-size: 30px;
+   font-weight: 700;
+   line-height: 45px;
+   padding: 0.01em 16px;
+   font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+   
+}
+
+
+/* pg-2 */
+
+.container-2{
+    margin: 50px 0;
+    padding: 16px;
+}
+.divide-1{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.divide-1>.p-1{
+    padding: 0.01em 16px;
+    width: 50%;
+}
+.divide-1>.p-1>h2{
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.divide-1>.p-1>p{
+    margin: 15px 0;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.divide-1>.p-1>img{
+    border-top: 6px solid #ffc107;
+
+}
+
+
+
+.divide-2{
+    display: flex;
+}
+.divide-2>.p-1{
+    padding: 0.01em 16px;
+    width: 50%;
+}
+.divide-2>.p-1>h2{
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.divide-2>.p-1>p{
+    margin: 15px 0;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.divide-2>.p-1>img{
+    border-top: 6px solid #ffc107;
+    
+}
